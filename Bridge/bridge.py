@@ -5,22 +5,22 @@ they’d be interchangeable inside the abstraction.
 """
 
 class Abstraction:
-    def __init__(self, implementation):
+    def __init__(self, implementation: 'Implementation') -> None:
         self.implementation = implementation
 
-    def operation(self):
+    def operation(self) -> None:
         self.implementation.operationImp()
 
 class Implementation:
-    def operationImp(self):
+    def operationImp(self) -> None:
         pass
 
 class ConcreteImplementation(Implementation):
-    def operationImp(self):
+    def operationImp(self) -> None:
         print("Concrete Implementation")
 
 class AnotherConcreteImplementation(Implementation):
-    def operationImp(self):
+    def operationImp(self) -> None:
         print("Another Concrete Implementation")
 
 
