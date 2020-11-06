@@ -3,7 +3,7 @@ Chain of Responsibility allows you to give request handling to a chain of object
 """
 
 class Handler:
-    def __init__(self, nextHandler: Handler = None) -> None:
+    def __init__(self, nextHandler: 'Handler' = None) -> None:
         self.nextHandler = nextHandler
         self.requestToHandle = ""
 
