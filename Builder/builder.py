@@ -1,6 +1,6 @@
 """
 Description:
-Builder is a creational design pattern which is used to encapsulate the step by step creation of the object.
+Builder is used to encapsulate the step by step creation of the object.
 """
 
 

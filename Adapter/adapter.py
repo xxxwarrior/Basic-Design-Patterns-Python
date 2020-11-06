@@ -1,6 +1,5 @@
 """
-Description:
-Adapter is a structural design pattern which establishes the collaboration of objects with incompatible interfaces.
+Adapter establishes the collaboration of objects with incompatible interfaces.
 """
 
 

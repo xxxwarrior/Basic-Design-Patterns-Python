@@ -1,7 +1,7 @@
 """
-Description:
-Bridge is a structural design pattern that divides a class into separate class hierarchies that can be developed independently.
-Bridge allows you to change the implementation and the abstraction. Since all implementations will have a common interface, they’d be interchangeable inside the abstraction.
+Bridge divides a class into separate class hierarchies that can be developed independently.
+Bridge allows you to change the implementation and the abstraction. Since all implementations will have a common interface, 
+they’d be interchangeable inside the abstraction.
 """
 
 class Abstraction:
