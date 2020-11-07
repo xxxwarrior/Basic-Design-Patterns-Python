@@ -12,7 +12,7 @@ class Singleton:
         else: Singleton.uniqueInstance = self
 
     @staticmethod
-    def getInstance() -> Singleton:
+    def getInstance() -> 'Singleton':
         if Singleton.uniqueInstance == None:
             Singleton()
         return Singleton.uniqueInstance
